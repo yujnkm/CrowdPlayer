@@ -1,8 +1,28 @@
 # Template Project for Immersive Spatial Augmented Reality (SAR) System with Body Tracking
 
-This Unity project provides a **template setup** for developing applications that integrate **Immersive Spatial Augmented Reality (SAR) System** using a 7-meter IglooVision cylinder and **body tracking** powered by **ZED 2i cameras** at Texas A&M University.
+![Components of the SAR system](images/components.png)
 
-It serves as a base for building your own immersive projects that utilize both panoramic projection and body tracking, either within an existing Igloo setup or through custom configurations.
+This Unity project is a ready-to-use template for developing applications in an **Immersive Spatial Augmented Reality (SAR) System**. It's specifically configured for the 7-meter IglooVision cylinder at Texas A&M University, which uses three ceiling-mounted **ZED 2i cameras**  for robust body tracking. This template provides the foundation for building your own immersive projects that require both panoramic projection and real-time motion tracking.
+
+### Core Features
+- **Load Any Environment:** Works as a plug-and-play system. You can easily load your own custom Unity environments, and they will be correctly projected onto the 360° Igloo screen.
+- **Multi-User Body Tracking:** Seamlessly tracks the full-body movements of 20+ users simultaneously within the Igloo space.
+- **Persistent Tracking IDs:** Each person is assigned a unique ID, allowing for consistent and individualized interactions as long as they remain in the tracked area.
+- **Hand Tracking Included:** The system tracks both the right and left hands for every user, enabling intuitive gesture-based interactions.
+
+### Demo Scene: Interactive Music
+As a demonstration, we have included an interactive musical experience.
+
+- When a user raises their hand, a virtual bubble is generated from it.
+- As the bubble floats and hits the 360° projected wall, it pops and plays a musical note.
+- A unique colored water splash effect appears, giving users visual feedback that their
+bubble created the sound.
+
+### Get Started
+
+This platform is yours to explore. It's perfect for creating anything from controlled **scientific studies** on human interaction to expressive **artistic installations** that leverage a full field-of-view immersive experience. Clone the repository, load your assets, and start building!
+
+If you use this repository for your project, please see the *"Authorship and Citation Policy"* section at the end of this README for attribution guidelines.
 
 ---
 
@@ -157,6 +177,34 @@ You should now be able to step inside Igloo and see it working.
 * The number of users that can be tracked simultaneously depends on the machine’s **computational power**.
 * Ensure that **lighting conditions** are optimal for ZED cameras to maintain accurate body tracking.
 * Calibration accuracy impacts tracking stability.
+
+---
+
+## Authorship and Citation Policy
+This repository is more than a collection of scripts; it is a fully integrated research platform. Its development represents a significant investment of time in software engineering, hardware integration, and calibration, designed to accelerate research by providing a turnkey solution.
+
+In the spirit of scholarly collaboration and to ensure proper acknowledgment of this intellectual contribution, use of this platform is governed by the following policy.
+
+### Tier 1: Citation Requirement (All Uses)
+For **any** project, presentation, course syllabus, or internal report that uses or is derived from this work, you are required to cite the following:
+
+- **Project Repository:** [Link to your GitHub repository]
+- **Archival Version (DOI):** [Link to your Zenodo/Figshare DOI]
+
+### Tier 2: Co-Authorship Requirement (For Publications)
+Co-authorship is required if this platform serves as a **foundational component** of your research leading to a publication (e.g., conference paper, journal article, thesis, or dissertation).
+
+This requirement applies if your work meets one or more of the following criteria:
+
+- Your research methodology relies on the **custom integration of ZED 2i body tracking** within the Unity-based Igloo SAR platform provided by this template.
+- This software platform serves as the **primary tool** for user interaction or environment rendering in your study/ project. 
+- The use of this pre-built platform allowed you to **bypass the significant software development, hardware integration, and calibration effort** required to create a comparable system from scratch.
+
+In these cases, the platform constitutes a significant intellectual contribution that meets the standards for authorship. You are required to contact *Dr. You-Jin Kim* via his **official university email** to discuss his inclusion as a co-author **prior to manuscript submission**.
+
+### A Note on Academic Integrity
+This policy is established to uphold the standards of academic and scientific integrity. We have made this work available to advance the field and trust that users will, in turn, properly acknowledge the foundational contributions that make their research possible. Adherence to these guidelines is a matter of professional ethics.
+
 
 ---
 
