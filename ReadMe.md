@@ -197,6 +197,7 @@ Co-authorship is required if this platform serves as a **foundational component*
 This requirement applies if your work meets one or more of the following criteria:
 
 - Your research methodology relies on the **custom integration of ZED 2i body tracking** within the Unity-based Igloo SAR platform provided by this template.
+- Your methodology relies on the platform's custom spatial audio system, which routes audio directly from Unity and bypasses the main projection PC (the computer running the Igloo Engine).
 - This software platform serves as the **primary tool** for user interaction or environment rendering in your study/ project. 
 - The use of this pre-built platform allowed you to **bypass the significant software development, hardware integration, and calibration effort** required to create a comparable system from scratch.
 
@@ -215,4 +216,5 @@ This policy is established to uphold the standards of academic and scientific in
 * **ZED SDK (version used: 5.0.0):**: [https://www.stereolabs.com/developers/release](https://www.stereolabs.com/developers/release)
 * **ZED Unity Livelink Fusion Setup (version used: 4.2.0):** [https://github.com/stereolabs/zed-unity-livelink](https://github.com/stereolabs/zed-unity-livelink/tree/v4.2.0)
 * **Igloo Unity Setup Docs (version used: 1.3):** [https://360igloo.atlassian.net/wiki/spaces/IG/pages/3272867841/v1.3+Installation+Instructions](https://360igloo.atlassian.net/wiki/spaces/IG/pages/3272867841/v1.3+Installation+Instructions)
+
 
