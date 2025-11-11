@@ -218,3 +218,4 @@ This policy is established to uphold the standards of academic and scientific in
 * **Igloo Unity Setup Docs (version used: 1.3):** [https://360igloo.atlassian.net/wiki/spaces/IG/pages/3272867841/v1.3+Installation+Instructions](https://360igloo.atlassian.net/wiki/spaces/IG/pages/3272867841/v1.3+Installation+Instructions)
 
 
+![alt text](images/logo.png)
