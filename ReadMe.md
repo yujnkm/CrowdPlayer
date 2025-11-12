@@ -1,4 +1,4 @@
-# Template Project for Immersive Spatial Augmented Reality (SAR) System with Body Tracking
+# Crowd Player: Template Project for Immersive Spatial Augmented Reality (SAR) System with Body Tracking
 
 ![Components of the SAR system](images/components.png)
 
@@ -219,3 +219,4 @@ This policy is established to uphold the standards of academic and scientific in
 
 
 ![alt text](images/logo.png)
+
