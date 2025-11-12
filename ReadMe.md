@@ -1,8 +1,8 @@
-# Crowd Player: Template Project for Immersive Spatial Augmented Reality (SAR) System with Body Tracking
+# Crowd Player: Framework for an Immersive SAR System with Integrated Body Tracking (Template)
 
 ![Components of the SAR system](images/components.png)
 
-This Unity project is a ready-to-use template for developing applications in an **Immersive Spatial Augmented Reality (SAR) System**. It's specifically configured for the 7-meter IglooVision cylinder at Texas A&M University, which uses three ceiling-mounted **ZED 2i cameras**  for robust body tracking. This template provides the foundation for building your own immersive projects that require both panoramic projection and real-time motion tracking.
+This Unity project is a ready-to-use template for developing applications in an **Immersive Spatial Augmented Reality (SAR) System**. It's specifically configured for the 7-meter IglooVision cylinder at Texas A&M University, which uses three ceiling-mounted **ZED 2i cameras**  for robust body tracking. This template provides the foundation for building your own immersive projects that require both panoramic projection and real-time motion tracking. This template, empty project comes with interactive demos to show its capablity and easy to set up out of the box experience. 
 
 ### Core Features
 - **Load Any Environment:** Works as a plug-and-play system. You can easily load your own custom Unity environments, and they will be correctly projected onto the 360° Igloo screen.
@@ -219,4 +219,5 @@ This policy is established to uphold the standards of academic and scientific in
 
 
 ![alt text](images/logo.png)
+
 
